@@ -17,3 +17,6 @@ const generateSpaceLayer = (size, selector, totalStars, duration) => {
 generateSpaceLayer("2px", ".space-1", 250, "25s");
 generateSpaceLayer("3px", ".space-2", 100, "20s");
 generateSpaceLayer("6px", ".space-3", 25, "15s");
+onload = () => {
+  document.body.classList.remove("container");
+};

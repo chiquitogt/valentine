@@ -13,16 +13,18 @@ footer{
 
 
 .button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   position: absolute;
   justify-content: center;
-  bottom: 13%;
+  bottom: 17%;
   margin-left: 29%;
   padding: 15px 30px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(90deg, #ce1c98, #ff0080);
+  background: linear-gradient(90deg, #cf6970, #e72633);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -50,9 +52,9 @@ footer{
   font-size: 2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(65, 20, 37);
+  color: rgb(212, 126, 159);
   text-shadow: -2px 1px 10px rgb(255, 180, 193);
-  margin-top: 25%;
+  margin-top: 15%;
   z-index: 100;
   left: 15%;
   top: 50%;
