@@ -17,8 +17,8 @@ footer{
   align-items: center;
   position: absolute;
   justify-content: center;
-  bottom: 10%;
-  margin-left: -74px;
+  bottom: 13%;
+  margin-left: 29%;
   padding: 15px 30px;
   border: none;
   border-radius: 50px;
@@ -46,13 +46,13 @@ footer{
   transform: rotate(220deg);
 }
 
-h2 {
+.heart {
   font-size: 2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(65, 20, 37);
   text-shadow: -2px 1px 10px rgb(255, 180, 193);
-  position: fixed;
+  margin-top: 25%;
   z-index: 100;
   left: 15%;
   top: 50%;
