@@ -25,7 +25,28 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
-  
+
+.titulo {
+  margin-bottom: 180px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: yellow;
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity: 0.6;
+  animation: fadeIn 3s ease-in-out forwards;
+  text-align: center;
+  margin: auto;
+  bottom: 15%;
+  width: 97%;
+  margin-left: 3%;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
   .space {
     --size: 2px;
     --space-layer: 
@@ -1537,5 +1558,25 @@ body {
 @keyframes growing-grass-ans {
   0% {
     transform: scale(0);
+  }
+}
+@media screen and (max-width: 600px) {
+  /* Estilos para pantallas pequeñas */
+  h1 {
+      font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas */
+  h1 {
+      font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  /* Estilos para pantallas grandes */
+  h1 {
+      font-size: 2em;
   }
 }

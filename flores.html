@@ -9,42 +9,48 @@
     <link rel="stylesheet" href="contador.css" />
 </head>
 <body>
+  <audio autoplay id="myaudio" >
+    <!--<source src="Die_With_A_Smile.flac" >-->
+  </audio>
+  
   <div>
     <div class="container">
         <div class="space space-1"></div>
         <div class="space space-2"></div>
         <div class="space space-3"></div>
         <div class="night"></div>
-        <div class="contador">
-          <h1>Juntos desde</h1>
-          <div class="tiempo">
-              <div class="bloque">
-                  <div id="anios" class="numero">0</div>
-                  <div class="texto">Años</div>
-              </div>
-              <div class="bloque">
-                  <div id="meses" class="numero">0</div>
-                  <div class="texto">Meses</div>
-              </div>
-              <div class="bloque">
-                  <div id="dias" class="numero">0</div>
-                  <div class="texto">Días</div>
-              </div>
-              <div class="bloque">
-                  <div id="horas" class="numero">0</div>
-                  <div class="texto">Horas</div>
-              </div>
-              <div class="bloque">
-                  <div id="minutos" class="numero">0</div>
-                  <div class="texto">Minutos</div>
-              </div>
-              <div class="bloque">
-                  <div id="segundos" class="numero">0</div>
-                  <div class="texto">Segundos</div>
-              </div>
+          <div class="contador">
+            <h1>Juntos desde</h1>
+            <div class="tiempo">
+                <div class="bloque">
+                    <div id="anios" class="numero">0</div>
+                    <div class="texto">Años</div>
+                </div>
+                <div class="bloque">
+                    <div id="meses" class="numero">0</div>
+                    <div class="texto">Meses</div>
+                </div>
+                <div class="bloque">
+                    <div id="dias" class="numero">0</div>
+                    <div class="texto">Días</div>
+                </div>
+                <div class="bloque">
+                    <div id="horas" class="numero">0</div>
+                    <div class="texto">Horas</div>
+                </div>
+                <div class="bloque">
+                    <div id="minutos" class="numero">0</div>
+                    <div class="texto">Minutos</div>
+                </div>
+                <div class="bloque">
+                    <div id="segundos" class="numero">0</div>
+                    <div class="texto">Segundos</div>
+                </div>
+            </div>
+            
           </div>
-          
-      </div>    
+          <h1 class="titulo">Estas flores son un reflejo de lo que traes a mi vida. <br><br> Mucha Luz <br><br>
+            Gracias por iluminar mis días con tu presencia.</h1>    
     </div>
     
   </div>
@@ -354,6 +360,10 @@
           </div>
      
      <script src="flores.js"></script>
+     <script>
+      var audio = document.getElementById("myaudio");
+      audio.volume = 0.1;
+    </script>
      <script>
       const fechaInicio = new Date("2023-12-07T18:40:00").getTime();  
       const contadorElemento = document.querySelector(".contador");
