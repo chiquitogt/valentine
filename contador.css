@@ -1,0 +1,75 @@
+#contador div {     
+    display: inline-block;     
+    margin: 0 10px;    
+    padding: 10px;     border: 2px solid #ccc;     
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+}
+
+
+.contador {
+    background: #1e1e1e;
+    position: relative;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: auto;    
+    text-align: center;     
+    font-size: 2em;   
+    top: 5%;  
+    color: #333; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    max-width: 75%;
+    width: 100%;
+}
+
+.contador h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #8400ff;
+}
+
+/* 🔹 Nueva estructura en GRID para 2 columnas */
+.tiempo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    font-size: 20px;
+}
+
+.bloque {
+    background: #282828;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(36, 2, 56, 0.3);
+    text-align: center;
+}
+
+.numero {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.texto {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* 🔹 Media Queries para 2 columnas en móviles */
+@media (max-width: 480px) {
+    .tiempo {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en móviles */
+        gap: 10px;
+    }
+
+    .contador {
+        padding: 15px;
+        top: 5%;
+    }
+
+    .numero {
+        font-size: 18px;
+    }
+}
