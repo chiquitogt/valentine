@@ -29,7 +29,7 @@ body {
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  color: rgb(255, 255, 255);
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
@@ -1563,7 +1563,7 @@ h1 {
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
   h1 {
-      font-size: 1.5em;
+      font-size: 1.2em;
   }
 }
 
